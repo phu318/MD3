@@ -137,6 +137,8 @@ FROM Course
          LEFT JOIN Point ON Course.Course_ID = Point.course_id
 GROUP BY Course.Course_ID, Course.Name_Course;
 
+--- UPDATE
+
 
 
 
